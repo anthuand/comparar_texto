@@ -1,16 +1,50 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import difflib
+import os
+import time
+from progress.bar import ChargingBar
+
+
 def main():
-    texto_1 = open("1.txt", "r")
-    texto_2 = open("2.txt", "r")
-    diferencias = []  # recibe una tupla ("palabra","texto.linea") donde indica la palabra que no concuerda y el texto y la linea en l formato "texto.linea"
+    texto_original = open("original.txt","r")
+    text_secundario = open("secundario.txt","r")
+    os.system("cls")
 
-    cantidad_lineas_1 = texto_1.readlines().__len__()
-    cantidad_lineas_2 = texto_2.readlines().__len__()
+    print("""			  
+                               ( ( (                   
+                                ) ) )                 
+                               ( ( (          
+                             '. ___ .'       
+                            '  (> <) '        
+                    --------ooO-(_)-Ooo----------
+                    Gracias por usar mis servicios
+                    
+                             ② ⓪ ② ⓪
+                               ⌜   ⌝
+                                ads
+                               ⌞   ⌟
+    """)
 
-    for linea_2 in texto_2.readlines():
-        print(linea_2)
+    print("Vamos a comparar...")
+
+    barra= ChargingBar("Comparando:", max=100)
+    for num in range(100):
+        time.sleep(0.05)
+        barra.next()
+    barra.finish()
+    time.sleep(1)
+
+
+    lineas1 = texto_original.readlines()
+    lineas2 = text_secundario.readlines()
+    diferencia = difflib.Differ()
+    generador_diferencia = diferencia.compare(lineas2, lineas1)
+
+    print("\n".join(generador_diferencia))
+
+    pausa=input("Espero que te haya servido.")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,15 @@
+﻿
+                                                ███▓▒░░.Instrucciones.░░▒▓███ 
+
+
+1--Copias el texto del buffer original en el txt que dice "Original".
+2-- Copias el otro en secundario y abres el programa 
+3-- Cuando sale "-" al principio de una linea , significa que hay cambios en el secundario con respecto al original 
+4-- Cuando sale "+" al principio de una linea, es el pedazo de texto del original para que tu veas en lo que cambia
+5-- Cuando sale "^" te indica que la letra de encima sufrio cambios
+6-- Cuando sale " " al principio de una linea es que es igual a la original
+
+
+Notas importantes :
+- Trata de abrir el programa en pantalla completa , para que todo se vea ok
+- Si te da algun bateo me avisas pa tratar de resolverlo   

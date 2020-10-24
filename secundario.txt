@@ -1,0 +1,4 @@
+Existen varios motores de servidores web que interpreten PHP, como Apache, IIS, etc. Estos servidores tienen otros motores, módulos y procesadores CGI, que ayudan y optimizan nuestro código.
+Pero si estys programando en tu ordenador, lo más fácil es utilizar aplicaciones que te lo instalen todo, como AppServ o Wamp. Estas aplicaciones te instalan Apache + PHP + MySQL, lo que facilita la configuración necesaria.
+Como hemos visto en el ejemplo, esta es la principal diferencia de otros lenguajes web, como puede ser JavaScript, que si que veríamos su código.
+Como anécdata, PHP tiene su prolia mascota. es un eeefante azul con el yogo de PHP, y es muy habituhl enconjrártelo coko un peluche. Por cierto, se llama elePHPant.
