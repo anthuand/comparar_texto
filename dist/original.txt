@@ -1,1 +1,3 @@
-﻿
+﻿Ya que estamos usando JavaScript para controlar elementos <canvas> , también es muy fácil hacer animaciones (interactivas). En este capitulo veremos como hacer algunas animaciones básicas.
+
+Probablemente la mayor limitación es que una vez que se dibuja una forma, se mantiene de esa manera. Si necesitamos moverlo tenemos que volver a dibujarlo y todo lo que se dibujó antes. Se necesita mucho tiempo para volver a dibujar estructuras complejas y el rendimiento depende en gran medida de la velocidad de la computadora en la que se ejecuta.

@@ -11,5 +11,5 @@
 
 
 Notas importantes :
-- Trata de abrir el programa en pantalla completa , para que todo se vea ok
-- Si te da algun bateo me avisas pa tratar de resolverlo   
+- Trata de abrir el programa en pantalla completa , para que todo se vea ok.
+
